@@ -1,0 +1,16 @@
+#signupForm{
+    width: 20%;
+    margin: auto;
+    margin-top: 10%;
+    display: grid;
+}
+h2{
+    text-align: center;
+    color: #50504b;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+

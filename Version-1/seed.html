@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seeds</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/cart.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+
+        <div class="header-1">
+    
+            <a href="#" class="logo"> <i class="fas fa-seedling"></i> WEBSERY </a>
+    
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+    
+        </div>
+    
+        <div class="header-2">
+    
+            <div id="menu-bar" class="fas fa-bars"></div>
+    
+            <nav class="navbar">
+                <a href="index.html"><i class='bx bxs-home'></i>home</a>
+                <a href="#category"><i class='bx bxs-category'></i>category</a>
+                <a href="#products">product</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+            </nav>
+    
+            <div  id="cartIcon" ><a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-user-circle" id="profile"></a>
+         </div>
+     </div>
+    
+        </div>
+    </header><br>
+
+    <section class="products" id="products">
+    <h1 class="heading">Seeds</h1>
+    <div id="allProducts"></div><br><br><br>
+    
+    </section>
+    <div id="sorting">
+            <select name="filter" id="filter">
+                <option value="">FILTER</option>
+                <option value="BONSAI PLANTS">BONSAI PLANTS</option>
+                <option value="BONSAI GIFTS">BONSAI GIFTS</option>
+            </select>
+            <select name="sort" id="sort">
+                <option value="">SORT</option>
+                <option value="LOW - HIGH">LOW - HIGH</option>
+                <option value="HIGH - LOW">HIGH - LOW</option>
+                <option value="ASCENDING">ASCENDING</option>
+                <option value="DESCENDING">DESCENDING</option>
+
+            </select>
+    </div>
+    <div  id="cart">
+        <div id="cartHead">
+             <h2><span>Your Cart</span>    <span id="quantity">(5)</span></h2>
+            <button id="closeCart">&times;</button>
+        </div>
+        <div id="cartPage">
+
+        </div>
+        <div id="cartTotal">
+            <div id="pricing">
+                <h3>SUBTOTAL</h3>
+                <P>Rs: 123.00</P>
+            </div>
+            <p>FREE SHIPPING OVER Rs.500/-</p>
+            <P>COD NOT APPLICABLE BELOW Rs.500</P>
+            <button>CHECKOUT</button>
+            <p>100% Purchase Protection</p>
+            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_2_71095016-e5c2-48f5-a50f-fbf011232ef2.png?v=1655301396" alt="">
+        </div>
+    </div>
+    <div  id="overlay"></div>
+</section>
+<footer>
+    <div id="foot">
+     <section class="footer">
+
+         <div class="box-container">
+     
+             <div class="box">
+                 <h3>quick links</h3>
+                 <a href="#home">home</a>
+                 <a href="#category">category</a>
+                 <a href="#products">products</a>
+                 <a href="#about">about</a>
+                 <a href="#contact">contact</a>
+             </div>
+             <div class="box">
+                 <h3>Contact Us</h3>
+                 <p><i class='bx bx-phone-call bx-flashing' ></i>
+                 +999 888 777</p>
+                 <br>
+                 <p><i class='bx bx-mail-send bx-flashing' ></i>
+                 websery@email.com</p>
+             </div>
+             <div class="box">
+                 <h3>Follow Us</h3>
+                 <a href="https://www.facebook.com/">
+                    <i class='bx bxl-facebook' id="f_icon"></i>
+                 </a>
+                 <a href="https://www.instagram.com/">
+                    <i class='bx bxl-instagram' id="f_icon"></i>
+                 </a>
+                 <a href="https://twitter.com/">
+                    <i class='bx bxl-twitter' id="f_icon"></i>
+                 </a>
+                 <a href="https://linkedin.com/">
+                    <i class='bx bxl-linkedin-square' id="f_icon"></i>
+                 </a>
+             </div>
+             <div class="box">
+                 <h3>We accept all credit cards</h3>
+                 <img src="assets/img/card1.png" alt="" class="footer__card">
+                 <img src="assets/img/card2.png" alt="" class="footer__card">
+                 <img src="assets/img/card3.png" alt="" class="footer__card">
+                 <img src="assets/img/card4.png" alt="" class="footer__card">
+             </div>
+     </div>
+     </div>
+    </div>
+ </footer>
+    <script src="scripts/index.js"></script>
+    <script src="seed.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

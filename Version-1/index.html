@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/index.css">
+   <link rel="stylesheet" href="styles/homepage.css">
+   <link rel="stylesheet" href="styles/cart.css">
+   
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header>
+        <br>
+        <br>
+        <br>
+
+        <div class="header-1">
+    
+            <a href="#" class="logo"> <i class="fas fa-seedling"></i> WEBSERY </a>
+    
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="What are you looking for?">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+    
+        </div>
+    
+        <div class="header-2">
+    
+            <div id="menu-bar" class="fas fa-bars"></div>
+    
+            <nav class="navbar">
+                <a href="#home"><i class='bx bxs-home'></i>home</a>
+                <a href="#category"><i class='bx bxs-category'></i>category</a>
+                <a href="#products">product</a>
+                <a href="#about">about</a>
+                <a href="#contact">contact</a>
+            </nav>
+    
+            <div  id="cartIcon" ><a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-user-circle" id="profile"></a>
+         </div>
+     </div>
+    
+        </div>
+    </header>
+    <br>
+    <br>
+    <br><br>
+
+    <section class="home" id="home">
+
+        <div class="swiper-container home-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="box" style="background: url(https://c4.wallpaperflare.com/wallpaper/635/605/180/roses-flowers-pot-petals-wallpaper-preview.jpg);">
+                    <div class="content">
+                        <span>upto 75% off</span>
+                        <h3>plant big sale special offer</h3>
+                        <a href="#category" class="btn">shop now</a>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box" style="background: url(https://wallpapercave.com/wp/wp3101023.jpg);">
+                    <div class="content">
+                        <span>upto 45% off</span>
+                        <h3>plant make people happy</h3>
+                        <a href="#category" class="btn">shop now</a>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box" style="background: url(https://c0.wallpaperflare.com/preview/146/436/921/decor-flatlay-from-above-house-plant.jpg);">
+                    <div class="content">
+                        <span>upto 65% off</span>
+                        <h3>decorate your home now</h3>
+                        <a href="#category" class="btn">shop now</a>
+                    </div>
+                </div>
+              </div>
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section class="about" id="about">
+        <h1 class="heading">About Us</h1>
+        <div class="about__container grid">
+            <img src="assets/img/about.png" alt="" class="about__img">
+
+            <div class="about__data">
+                <h2 class="section__title about__title">
+                    Who we really are & <br> why choose us
+                </h2>
+
+                <p class="about__description">
+                    We have over 4000+ unbiased reviews and our customers 
+                    trust our plant process and delivery service every time
+                </p>
+
+                <div class="about__details">
+                    <p class="about__details-description">
+                        <i class='bx bxs-check-square about__details-icon'></i>
+                        We always deliver on time.
+                    </p>
+                    <p class="about__details-description">
+                        <i class='bx bxs-check-square about__details-icon'></i>
+                        We give you guides to protect and care for your plants.
+                    </p>
+                    <p class="about__details-description">
+                        <i class='bx bxs-check-square about__details-icon'></i>
+                        We always come over for a check-up after sale.
+                    </p>
+                    <p class="about__details-description">
+                        <i class='bx bxs-check-square about__details-icon'></i>
+                        100% money back guaranteed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+
+<!-- category section starts  -->
+
+<section class="category" id="category">
+
+    <h1 class="heading"> Shop By Category </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="https://www.easternleaf.com/v/vspfiles/photos/800560-03-2.jpg" alt="">
+            <div class="content">
+                <h3>Bonsai</h3>
+                <a href="bonsai.html" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://schoolgardening.rhs.org.uk/getmedia/aaa3788f-c83b-4201-bd1e-2ac525a14b0c/A-seed-packet-jargon?width=960&height=640&ext=.jpg" alt="">
+            <div class="content">
+                <h3>Seeds</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://images.meesho.com/images/products/138905546/zbepn_512.webp" alt="">
+            <div class="content">
+                <h3>Pots & Planters</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLhI4it8_vo8uQEU6eR8s34zkyMK5yTwSbYA&usqp=CAU" alt="">
+            <div class="content">
+                <h3>Accessories</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="http://cdn.shopify.com/s/files/1/0579/7924/0580/articles/shutterstock_301313486.jpg?v=1661870861" alt="">
+            <div class="content">
+                <h3>Fertilizer</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu3V-riSyx8IiP15Fu06TXuLGJkd9jRLIWhA&usqp=CAU" alt="">
+            <div class="content">
+                <h3>Plants</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Pah395hN9TuJwIyHbJ5TtbRLaELIllNRfw&usqp=CAU" alt="">
+            <div class="content">
+                <h3>Tools</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrWb-Y2Z-5AaZnF2Gh0JKEYizdj4g0BeOFxA&usqp=CAU" alt="">
+            <div class="content">
+                <h3>Stands</h3>
+                <a href="#" class="btn">shop now</a>
+            </div>
+        </div>
+    
+    </div>
+    
+    </section>
+    <br>
+    <br>
+    
+    <!-- category section ends -->
+    <section class="products" id="products">
+    <h1 class="heading">Check Out Our Products</h1>
+    <div id="allProducts"></div>
+    <br>
+    <br>
+    <!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">Get In Touch</h1>
+    
+    <div class="row">
+    <div class="content">
+        <img src="https://media.istockphoto.com/id/1271752802/photo/phone-and-e-mail-icons-on-wooden-cubes-with-contact-us-text-on-blue-background-web-page.jpg?s=612x612&w=0&k=20&c=dk9oPaDy_L9mv_icOMgsFGzEDrX0NUI3I8xBQ-DAxQM=" alt="">
+        <h2>
+            Reach out to us today <br> via any of the given <br> information
+        </h2>
+                <h3>Call us for instant support</h3>
+                <i class='bx bx-phone-call bx-flashing' ></i>
+                +999 888 777
+
+                <h3>Write us by mail</h3>
+                <i class='bx bx-mail-send bx-flashing' ></i>
+                websery@email.com
+    </div>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <input type="text" required>
+                <label>name</label>
+            </div>
+            <div class="inputBox">
+                <input type="email" required>
+                <label>email</label>
+            </div>
+            <div class="inputBox">
+                <input type="number" required>
+                <label>number</label>
+            </div>
+            <div class="inputBox">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label>message</label>
+            </div>
+    
+            <input type="submit" value="send message" class="btn">
+    
+        </form>
+    
+    </div>
+    
+    </section>
+    <div id="sorting">
+            <select name="filter" id="filter">
+                <option value="">FILTER</option>
+                <option value="HANGING PLANTERS">HANGING PLANTERS</option>
+                <option value="CERAMIC POTS">CERAMIC POTS</option>
+                <option value="GROW BAG">GROW BAG</option>
+                <option value="FRUIT PLANTS">FRUIT PLANTS</option>
+                <option value="FERTILIZER">FERTILIZER</option>
+                <option value="FLOWERING PLANTS">FLOWERING PLANTS</option>
+                <option value="SOIL">SOIL</option>
+                <option value="BONSAI PLANTS">BONSAI PLANTS</option>
+                <option value="SEEDS">SEEDS</option>
+                <option value="GARDENING TOOLS">GARDENING TOOLS</option>
+                <option value="'PLANT STAND">'PLANT STAND</option>
+                <option value="GARDEN KITS">GARDEN KITS</option>
+                <option value="GARDENING ACCESSORIES">GARDENING ACCESSORIES</option>
+            </select>
+            <select name="sort" id="sort">
+                <option value="">SORT</option>
+                <option value="LOW - HIGH">LOW - HIGH</option>
+                <option value="HIGH - LOW">HIGH - LOW</option>
+                <option value="ASCENDING">ASCENDING</option>
+                <option value="DESCENDING">DESCENDING</option>
+
+            </select>
+    </div>
+    <div  id="cart">
+        <div id="cartHead">
+             <h2><span>Your Cart</span>    <span id="quantity">(5)</span></h2>
+            <button id="closeCart">&times;</button>
+        </div>
+        <div id="cartPage">
+
+        </div>
+        <div id="cartTotal">
+            <div id="pricing">
+                <h3>SUBTOTAL</h3>
+                <P>Rs: 123.00</P>
+            </div>
+            <p>FREE SHIPPING OVER Rs.500/-</p>
+            <P>COD NOT APPLICABLE BELOW Rs.500</P>
+            <button>CHECKOUT</button>
+            <p>100% Purchase Protection</p>
+            <img src="https://cdn.shopify.com/s/files/1/0361/8553/8692/files/Group_2_71095016-e5c2-48f5-a50f-fbf011232ef2.png?v=1655301396" alt="">
+        </div>
+    </div>
+    <div  id="overlay"></div>
+</section>
+    <footer>
+       <div id="foot">
+        <section class="footer">
+
+            <div class="box-container">
+            
+        
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="#home">home</a>
+                    <a href="#category">category</a>
+                    <a href="#products">products</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact</a>
+                </div>
+                <div class="box">
+                    <h3>Contact Us</h3>
+                    <p><i class='bx bx-phone-call bx-flashing' ></i>
+                    +999 888 777</p>
+                    <br>
+                    <p><i class='bx bx-mail-send bx-flashing' ></i>
+                    websery@email.com</p>
+                </div>
+                <div class="box">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.facebook.com/">
+                       <i class='bx bxl-facebook' id="f_icon"></i>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                       <i class='bx bxl-instagram' id="f_icon"></i>
+                    </a>
+                    <a href="https://twitter.com/">
+                       <i class='bx bxl-twitter' id="f_icon"></i>
+                    </a>
+                    <a href="https://linkedin.com/">
+                       <i class='bx bxl-linkedin-square' id="f_icon"></i>
+                    </a>
+                </div>
+                <div class="box">
+                    <h3>We accept all credit cards</h3>
+                    <img src="assets/img/card1.png" alt="" class="footer__card">
+                    <img src="assets/img/card2.png" alt="" class="footer__card">
+                    <img src="assets/img/card3.png" alt="" class="footer__card">
+                    <img src="assets/img/card4.png" alt="" class="footer__card">
+                </div>
+        </div>
+        </div>
+       </div>
+    </footer>
+            <!--=============== SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up"> 
+                <i class='bx bxs-up-arrow-square scrollup__icon'></i>
+            </a>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/homepage.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/script.js"></script>
+            <!--=============== SCROLL REVEAL ===============-->
+            <script src="assets/js/scrollreveal.min.js"></script>
+        
+            <!--=============== MAIN JS ===============-->
+            <script src="assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.home-slider', {
+        // Optional parameters
+    
+        loop: true,
+      
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+      });
+    </script>
+</body>
+</html>
+
+
